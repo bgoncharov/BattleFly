@@ -13,6 +13,7 @@
 		A1C6E2DB2525172D00709596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C6E2D92525172D00709596 /* Main.storyboard */; };
 		A1C6E2DD2525172E00709596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C6E2DC2525172E00709596 /* Assets.xcassets */; };
 		A1C6E2E02525172E00709596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C6E2DE2525172E00709596 /* LaunchScreen.storyboard */; };
+		A1C6E2E825251BBC00709596 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6E2E725251BBC00709596 /* Background.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A1C6E2DC2525172E00709596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1C6E2DF2525172E00709596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1C6E2E12525172E00709596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C6E2E725251BBC00709596 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A1C6E2CF2525172D00709596 /* AppDelegate.swift */,
 				A1C6E2D52525172D00709596 /* GameScene.swift */,
+				A1C6E2E725251BBC00709596 /* Background.swift */,
 				A1C6E2D72525172D00709596 /* GameViewController.swift */,
 				A1C6E2D92525172D00709596 /* Main.storyboard */,
 				A1C6E2DC2525172E00709596 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				A1C6E2D62525172D00709596 /* GameScene.swift in Sources */,
 				A1C6E2D82525172D00709596 /* GameViewController.swift in Sources */,
 				A1C6E2D02525172D00709596 /* AppDelegate.swift in Sources */,
+				A1C6E2E825251BBC00709596 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
