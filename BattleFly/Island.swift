@@ -9,9 +9,9 @@
 import SpriteKit
 import GameplayKit
 
-class Island: SKSpriteNode {
+final class Island: SKSpriteNode, GameBackgroundSpritable {
     
-    static func populateIsland(at point: CGPoint) -> Island {
+    static func populateSprite(at point: CGPoint) -> Island {
         let islanImageName = configureIslandName()
         let island = Island(imageNamed: islanImageName)
         island.setScale(randomScaleFactor)
