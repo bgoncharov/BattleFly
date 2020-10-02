@@ -18,11 +18,12 @@ final class Island: SKSpriteNode, GameBackgroundSpritable {
         island.position = point
         island.zPosition = 1
         island.run(rotateForRandomAngl())
+        island.run(move(from: point))
         
         return island
     }
 
-    static func configureIslandName() -> String {
+    fileprivate static func configureIslandName() -> String {
         let distribution = GKRandomDistribution(lowestValue: 1, highestValue: 4)
         let randomNumber = distribution.nextInt()
         let imageName = "is" + "\(randomNumber)"
@@ -30,17 +31,26 @@ final class Island: SKSpriteNode, GameBackgroundSpritable {
         return imageName
     }
     
-    static var randomScaleFactor: CGFloat {
+    fileprivate static var randomScaleFactor: CGFloat {
         let distribution = GKRandomDistribution(lowestValue: 1, highestValue: 10)
         let randomNumber = CGFloat(distribution.nextInt()) / 10
         
         return randomNumber
     }
     
-    static func rotateForRandomAngl() -> SKAction {
+    fileprivate static func rotateForRandomAngl() -> SKAction {
         let distribution = GKRandomDistribution(lowestValue: 0, highestValue: 360)
         let randomNumber = CGFloat(distribution.nextInt())
         
         return SKAction.rotate(toAngle: randomNumber * CGFloat(Double.pi / 100), duration: 0)
+    }
+    
+    fileprivate static func move(from point: CGPoint) -> SKAction {
+        
+        let movePoint = CGPoint(x: point.x, y: -200)
+        let moveDistance = point.y + 200
+        let movementSpeed: CGFloat = 10.0
+        let duration = moveDistance / movementSpeed
+        return SKAction.move(to: movePoint, duration: TimeInterval(duration))
     }
 }
