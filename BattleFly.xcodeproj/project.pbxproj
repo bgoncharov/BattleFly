@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A16B70DB2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16B70DA2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift */; };
 		A174DA9D2527E46C00B3BF92 /* PlayerPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174DA9C2527E46C00B3BF92 /* PlayerPlane.swift */; };
 		A174DA9F2527E82000B3BF92 /* PlayerPlane.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A174DA9E2527E82000B3BF92 /* PlayerPlane.atlas */; };
 		A1C6E2D02525172D00709596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6E2CF2525172D00709596 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A16B70DA2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "protocol GameBackgroundSpritebla + Extension.swift"; sourceTree = "<group>"; };
 		A174DA9C2527E46C00B3BF92 /* PlayerPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPlane.swift; sourceTree = "<group>"; };
 		A174DA9E2527E82000B3BF92 /* PlayerPlane.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerPlane.atlas; sourceTree = "<group>"; };
 		A1C6E2CC2525172D00709596 /* BattleFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +74,7 @@
 				A1C6E2E725251BBC00709596 /* Background.swift */,
 				A1C6E2E92525280900709596 /* Island.swift */,
 				A1C6E2EB2525494500709596 /* Cloud.swift */,
+				A16B70DA2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift */,
 				A1C6E2D72525172D00709596 /* GameViewController.swift */,
 				A1C6E2D92525172D00709596 /* Main.storyboard */,
 				A1C6E2DC2525172E00709596 /* Assets.xcassets */,
@@ -161,6 +164,7 @@
 				A1C6E2D02525172D00709596 /* AppDelegate.swift in Sources */,
 				A1C6E2EA2525280900709596 /* Island.swift in Sources */,
 				A1C6E2E825251BBC00709596 /* Background.swift in Sources */,
+				A16B70DB2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
