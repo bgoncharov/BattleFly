@@ -30,8 +30,9 @@ class GameScene: SKScene {
         SKTextureAtlas.preloadTextureAtlases([enemyTextureAtlas]) {
             Enemy.textureAtlas = enemyTextureAtlas
             let enemy = Enemy()
-            enemy.position = CGPoint(x: self.size.width / 2, y: self.size.height * 2 / 3)
+            enemy.position = CGPoint(x: self.size.width / 2, y: self.size.height + 110)
             self.addChild(enemy)
+            enemy.flySpiral()
         }
     }
     
