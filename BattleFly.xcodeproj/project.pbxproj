@@ -10,6 +10,8 @@
 		A16B70DB2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16B70DA2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift */; };
 		A174DA9D2527E46C00B3BF92 /* PlayerPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174DA9C2527E46C00B3BF92 /* PlayerPlane.swift */; };
 		A174DA9F2527E82000B3BF92 /* PlayerPlane.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A174DA9E2527E82000B3BF92 /* PlayerPlane.atlas */; };
+		A1B9AD1B253276830024C7A9 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9AD1A253276830024C7A9 /* Enemy.swift */; };
+		A1B9AD1D253276A60024C7A9 /* Enemy_1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A1B9AD1C253276A60024C7A9 /* Enemy_1.atlas */; };
 		A1C67F0625311D05001E4295 /* PowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C67F0525311D05001E4295 /* PowerUp.swift */; };
 		A1C67F0825311D6B001E4295 /* GreenPowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A1C67F0725311D6B001E4295 /* GreenPowerUp.atlas */; };
 		A1C6E2D02525172D00709596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6E2CF2525172D00709596 /* AppDelegate.swift */; };
@@ -27,6 +29,8 @@
 		A16B70DA2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "protocol GameBackgroundSpritebla + Extension.swift"; sourceTree = "<group>"; };
 		A174DA9C2527E46C00B3BF92 /* PlayerPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPlane.swift; sourceTree = "<group>"; };
 		A174DA9E2527E82000B3BF92 /* PlayerPlane.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerPlane.atlas; sourceTree = "<group>"; };
+		A1B9AD1A253276830024C7A9 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		A1B9AD1C253276A60024C7A9 /* Enemy_1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Enemy_1.atlas; sourceTree = "<group>"; };
 		A1C67F0525311D05001E4295 /* PowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUp.swift; sourceTree = "<group>"; };
 		A1C67F0725311D6B001E4295 /* GreenPowerUp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = GreenPowerUp.atlas; sourceTree = "<group>"; };
 		A1C6E2CC2525172D00709596 /* BattleFly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleFly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +80,7 @@
 				A1C6E2D52525172D00709596 /* GameScene.swift */,
 				A174DA9C2527E46C00B3BF92 /* PlayerPlane.swift */,
 				A1C6E2E725251BBC00709596 /* Background.swift */,
+				A1B9AD1A253276830024C7A9 /* Enemy.swift */,
 				A1C6E2E92525280900709596 /* Island.swift */,
 				A1C6E2EB2525494500709596 /* Cloud.swift */,
 				A1C67F0525311D05001E4295 /* PowerUp.swift */,
@@ -84,6 +89,7 @@
 				A1C6E2D92525172D00709596 /* Main.storyboard */,
 				A1C6E2DC2525172E00709596 /* Assets.xcassets */,
 				A1C6E2DE2525172E00709596 /* LaunchScreen.storyboard */,
+				A1B9AD1C253276A60024C7A9 /* Enemy_1.atlas */,
 				A1C67F0725311D6B001E4295 /* GreenPowerUp.atlas */,
 				A174DA9E2527E82000B3BF92 /* PlayerPlane.atlas */,
 				A1C6E2E12525172E00709596 /* Info.plist */,
@@ -149,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B9AD1D253276A60024C7A9 /* Enemy_1.atlas in Resources */,
 				A1C6E2DB2525172D00709596 /* Main.storyboard in Resources */,
 				A1C67F0825311D6B001E4295 /* GreenPowerUp.atlas in Resources */,
 				A174DA9F2527E82000B3BF92 /* PlayerPlane.atlas in Resources */,
@@ -170,6 +177,7 @@
 				A1C6E2D82525172D00709596 /* GameViewController.swift in Sources */,
 				A1C6E2D02525172D00709596 /* AppDelegate.swift in Sources */,
 				A1C6E2EA2525280900709596 /* Island.swift in Sources */,
+				A1B9AD1B253276830024C7A9 /* Enemy.swift in Sources */,
 				A1C6E2E825251BBC00709596 /* Background.swift in Sources */,
 				A1C67F0625311D05001E4295 /* PowerUp.swift in Sources */,
 				A16B70DB2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift in Sources */,
