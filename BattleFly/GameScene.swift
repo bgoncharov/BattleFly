@@ -36,26 +36,33 @@ class GameScene: SKScene {
     fileprivate func spawnEnemies() {
         let waitAction = SKAction.wait(forDuration: 3.0)
         let spawnSpiralAction = SKAction.run { [unowned self] in
-            self.spawnEnemy(count: 5)
+            self.spawnSpiralOfEnemies()
         }
         
         self.run(SKAction.repeatForever(SKAction.sequence([waitAction, spawnSpiralAction])))
     }
     
-    fileprivate func spawnEnemy(count: Int) {
-        let enemyTextureAtlas = SKTextureAtlas(named: "Enemy_1")
-        SKTextureAtlas.preloadTextureAtlases([enemyTextureAtlas]) {
-            Enemy.textureAtlas = enemyTextureAtlas
+    fileprivate func spawnSpiralOfEnemies() {
+        let enemyTextureAtlas1 = SKTextureAtlas(named: "Enemy_1")
+        let enemyTextureAtlas2 = SKTextureAtlas(named: "Enemy_2")
+        SKTextureAtlas.preloadTextureAtlases([enemyTextureAtlas1, enemyTextureAtlas2]) { [unowned self] in
+            
+            let randomNumber = Int(arc4random_uniform(2))
+            let arraysOfAtlases = [enemyTextureAtlas1, enemyTextureAtlas2]
+            let textureAtlas = arraysOfAtlases[randomNumber]
+            
             let waitActions = SKAction.wait(forDuration: 1.0)
-            let spawnEnemy = SKAction.run {
-                let enemy = Enemy(eneemyTexture: enemyTextureAtlas.textureNamed("airplane_4ver2_13"))
+            let spawnEnemy = SKAction.run { [unowned self] in
+                let textureNames = textureAtlas.textureNames.sorted()
+                let texture = textureAtlas.textureNamed(textureNames[12])
+                let enemy = Enemy(eneemyTexture: texture)
                 enemy.position = CGPoint(x: self.size.width / 2, y: self.size.height + 110)
                 self.addChild(enemy)
                 enemy.flySpiral()
             }
             
             let spawnAction = SKAction.sequence([waitActions, spawnEnemy])
-            let repeatAction = SKAction.repeat(spawnAction, count: count)
+            let repeatAction = SKAction.repeat(spawnAction, count: 3)
             self.run(repeatAction)
         }
     }

@@ -24,8 +24,10 @@ class Enemy: SKSpriteNode {
     
     func flySpiral() {
         let screenSize = UIScreen.main.bounds
-        let timeVertical: Double = 10
+        
+        let timeVertical: Double = 5
         let timeHorizontal: Double = 3
+        
         let moveLeft = SKAction.moveTo(x: 50, duration: timeHorizontal)
         moveLeft.timingMode = .easeInEaseOut
         let moveRight = SKAction.moveTo(x: screenSize.width - 50, duration: timeHorizontal)
