@@ -10,6 +10,7 @@
 		A16B70DB2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16B70DA2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift */; };
 		A174DA9D2527E46C00B3BF92 /* PlayerPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A174DA9C2527E46C00B3BF92 /* PlayerPlane.swift */; };
 		A174DA9F2527E82000B3BF92 /* PlayerPlane.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A174DA9E2527E82000B3BF92 /* PlayerPlane.atlas */; };
+		A18B8EB325350A300031C25F /* Enemy_2.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A18B8EB225350A300031C25F /* Enemy_2.atlas */; };
 		A1B9AD1B253276830024C7A9 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9AD1A253276830024C7A9 /* Enemy.swift */; };
 		A1B9AD1D253276A60024C7A9 /* Enemy_1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A1B9AD1C253276A60024C7A9 /* Enemy_1.atlas */; };
 		A1C67F0625311D05001E4295 /* PowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C67F0525311D05001E4295 /* PowerUp.swift */; };
@@ -29,6 +30,7 @@
 		A16B70DA2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "protocol GameBackgroundSpritebla + Extension.swift"; sourceTree = "<group>"; };
 		A174DA9C2527E46C00B3BF92 /* PlayerPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPlane.swift; sourceTree = "<group>"; };
 		A174DA9E2527E82000B3BF92 /* PlayerPlane.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerPlane.atlas; sourceTree = "<group>"; };
+		A18B8EB225350A300031C25F /* Enemy_2.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Enemy_2.atlas; sourceTree = "<group>"; };
 		A1B9AD1A253276830024C7A9 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 		A1B9AD1C253276A60024C7A9 /* Enemy_1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Enemy_1.atlas; sourceTree = "<group>"; };
 		A1C67F0525311D05001E4295 /* PowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUp.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				A1C6E2DC2525172E00709596 /* Assets.xcassets */,
 				A1C6E2DE2525172E00709596 /* LaunchScreen.storyboard */,
 				A1B9AD1C253276A60024C7A9 /* Enemy_1.atlas */,
+				A18B8EB225350A300031C25F /* Enemy_2.atlas */,
 				A1C67F0725311D6B001E4295 /* GreenPowerUp.atlas */,
 				A174DA9E2527E82000B3BF92 /* PlayerPlane.atlas */,
 				A1C6E2E12525172E00709596 /* Info.plist */,
@@ -155,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A18B8EB325350A300031C25F /* Enemy_2.atlas in Resources */,
 				A1B9AD1D253276A60024C7A9 /* Enemy_1.atlas in Resources */,
 				A1C6E2DB2525172D00709596 /* Main.storyboard in Resources */,
 				A1C67F0825311D6B001E4295 /* GreenPowerUp.atlas in Resources */,
