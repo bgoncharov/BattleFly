@@ -24,6 +24,7 @@
 		A1C6E2E825251BBC00709596 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6E2E725251BBC00709596 /* Background.swift */; };
 		A1C6E2EA2525280900709596 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6E2E92525280900709596 /* Island.swift */; };
 		A1C6E2EC2525494500709596 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6E2EB2525494500709596 /* Cloud.swift */; };
+		A1CCF1D02537A3FF00A5EA2B /* BluePowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A1CCF1CF2537A3FF00A5EA2B /* BluePowerUp.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		A1C6E2E725251BBC00709596 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		A1C6E2E92525280900709596 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		A1C6E2EB2525494500709596 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		A1CCF1CF2537A3FF00A5EA2B /* BluePowerUp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BluePowerUp.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				A1B9AD1C253276A60024C7A9 /* Enemy_1.atlas */,
 				A18B8EB225350A300031C25F /* Enemy_2.atlas */,
 				A1C67F0725311D6B001E4295 /* GreenPowerUp.atlas */,
+				A1CCF1CF2537A3FF00A5EA2B /* BluePowerUp.atlas */,
 				A174DA9E2527E82000B3BF92 /* PlayerPlane.atlas */,
 				A1C6E2E12525172E00709596 /* Info.plist */,
 			);
@@ -164,6 +167,7 @@
 				A1C67F0825311D6B001E4295 /* GreenPowerUp.atlas in Resources */,
 				A174DA9F2527E82000B3BF92 /* PlayerPlane.atlas in Resources */,
 				A1C6E2DD2525172E00709596 /* Assets.xcassets in Resources */,
+				A1CCF1D02537A3FF00A5EA2B /* BluePowerUp.atlas in Resources */,
 				A1C6E2E02525172E00709596 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
