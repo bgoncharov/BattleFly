@@ -6,36 +6,13 @@
 //  Copyright © 2020 Boris Goncharov. All rights reserved.
 //
 
-import UIKit
 import SpriteKit
 
-class BluePowerUp: PowerUp {
-    init() {
-        let textureAtlas = SKTextureAtlas(named: "BluePowerUp")
-        super.init(textureAtlas: textureAtlas)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-}
-
-class GreenPowerUp: PowerUp {
-    init() {
-           let textureAtlas = SKTextureAtlas(named: "GreenPowerUp")
-           super.init(textureAtlas: textureAtlas)
-       }
-       
-       required init?(coder aDecoder: NSCoder) {
-           fatalError("init(coder:) has not been implemented")
-       }
-}
-
 class PowerUp: SKSpriteNode {
-    let initialSize = CGSize(width: 52, height: 52)
-    let textureAtlas: SKTextureAtlas!
-    var textureNameBeginsWith = ""
-    var animationSpriteArray = [SKTexture]()
+    fileprivate let initialSize = CGSize(width: 52, height: 52)
+    fileprivate let textureAtlas: SKTextureAtlas!
+    fileprivate var textureNameBeginsWith = ""
+    fileprivate var animationSpriteArray = [SKTexture]()
     
     init(textureAtlas: SKTextureAtlas) {
         self.textureAtlas = textureAtlas

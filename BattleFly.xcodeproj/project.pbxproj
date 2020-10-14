@@ -25,6 +25,8 @@
 		A1C6E2EA2525280900709596 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6E2E92525280900709596 /* Island.swift */; };
 		A1C6E2EC2525494500709596 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C6E2EB2525494500709596 /* Cloud.swift */; };
 		A1CCF1D02537A3FF00A5EA2B /* BluePowerUp.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A1CCF1CF2537A3FF00A5EA2B /* BluePowerUp.atlas */; };
+		A1CCF1D22537A6F700A5EA2B /* BluePowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCF1D12537A6F700A5EA2B /* BluePowerUp.swift */; };
+		A1CCF1D42537A71900A5EA2B /* GreenPowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCF1D32537A71900A5EA2B /* GreenPowerUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		A1C6E2E92525280900709596 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		A1C6E2EB2525494500709596 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		A1CCF1CF2537A3FF00A5EA2B /* BluePowerUp.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BluePowerUp.atlas; sourceTree = "<group>"; };
+		A1CCF1D12537A6F700A5EA2B /* BluePowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluePowerUp.swift; sourceTree = "<group>"; };
+		A1CCF1D32537A71900A5EA2B /* GreenPowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenPowerUp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				A1C6E2E92525280900709596 /* Island.swift */,
 				A1C6E2EB2525494500709596 /* Cloud.swift */,
 				A1C67F0525311D05001E4295 /* PowerUp.swift */,
+				A1CCF1D12537A6F700A5EA2B /* BluePowerUp.swift */,
+				A1CCF1D32537A71900A5EA2B /* GreenPowerUp.swift */,
 				A16B70DA2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift */,
 				A1C6E2D72525172D00709596 /* GameViewController.swift */,
 				A1C6E2D92525172D00709596 /* Main.storyboard */,
@@ -183,9 +189,11 @@
 				A174DA9D2527E46C00B3BF92 /* PlayerPlane.swift in Sources */,
 				A1C6E2EC2525494500709596 /* Cloud.swift in Sources */,
 				A1C6E2D82525172D00709596 /* GameViewController.swift in Sources */,
+				A1CCF1D22537A6F700A5EA2B /* BluePowerUp.swift in Sources */,
 				A1C6E2D02525172D00709596 /* AppDelegate.swift in Sources */,
 				A1C6E2EA2525280900709596 /* Island.swift in Sources */,
 				A1B9AD1B253276830024C7A9 /* Enemy.swift in Sources */,
+				A1CCF1D42537A71900A5EA2B /* GreenPowerUp.swift in Sources */,
 				A1C6E2E825251BBC00709596 /* Background.swift in Sources */,
 				A1C67F0625311D05001E4295 /* PowerUp.swift in Sources */,
 				A16B70DB2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift in Sources */,
