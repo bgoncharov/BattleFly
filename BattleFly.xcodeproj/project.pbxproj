@@ -15,6 +15,7 @@
 		A1AA0C26253A24AC00B63446 /* Shot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA0C25253A24AC00B63446 /* Shot.swift */; };
 		A1AA0C28253A287600B63446 /* YellowShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA0C27253A287600B63446 /* YellowShot.swift */; };
 		A1AA0C2A253A305F00B63446 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA0C29253A305F00B63446 /* Assets.swift */; };
+		A1AA0C2C253A64AD00B63446 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AA0C2B253A64AD00B63446 /* MenuScene.swift */; };
 		A1B9AD1B253276830024C7A9 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9AD1A253276830024C7A9 /* Enemy.swift */; };
 		A1B9AD1D253276A60024C7A9 /* Enemy_1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A1B9AD1C253276A60024C7A9 /* Enemy_1.atlas */; };
 		A1C67F0625311D05001E4295 /* PowerUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C67F0525311D05001E4295 /* PowerUp.swift */; };
@@ -42,6 +43,7 @@
 		A1AA0C25253A24AC00B63446 /* Shot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shot.swift; sourceTree = "<group>"; };
 		A1AA0C27253A287600B63446 /* YellowShot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowShot.swift; sourceTree = "<group>"; };
 		A1AA0C29253A305F00B63446 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		A1AA0C2B253A64AD00B63446 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		A1B9AD1A253276830024C7A9 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 		A1B9AD1C253276A60024C7A9 /* Enemy_1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Enemy_1.atlas; sourceTree = "<group>"; };
 		A1C67F0525311D05001E4295 /* PowerUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerUp.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				A1C6E2CF2525172D00709596 /* AppDelegate.swift */,
+				A1AA0C2B253A64AD00B63446 /* MenuScene.swift */,
 				A1C6E2D52525172D00709596 /* GameScene.swift */,
 				A1AA0C29253A305F00B63446 /* Assets.swift */,
 				A1B9AD1A253276830024C7A9 /* Enemy.swift */,
@@ -219,6 +222,7 @@
 				A1CCF1D42537A71900A5EA2B /* GreenPowerUp.swift in Sources */,
 				A1C6E2E825251BBC00709596 /* Background.swift in Sources */,
 				A1C67F0625311D05001E4295 /* PowerUp.swift in Sources */,
+				A1AA0C2C253A64AD00B63446 /* MenuScene.swift in Sources */,
 				A1AA0C26253A24AC00B63446 /* Shot.swift in Sources */,
 				A16B70DB2529512C00700552 /* protocol GameBackgroundSpritebla + Extension.swift in Sources */,
 			);
