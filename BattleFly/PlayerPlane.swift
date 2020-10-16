@@ -22,7 +22,8 @@ class PlayerPlane: SKSpriteNode {
     let animationSpriteStride = [(13, 1, -1), (13, 26, 1), (13, 13, 1)]
     
     static func populate(at point: CGPoint) -> PlayerPlane {
-        let playerPlaneTexture = SKTexture(imageNamed: "airplane_3ver2_13")
+        let atlas = Assets.shared.playerPlaneAtlas
+        let playerPlaneTexture = atlas.textureNamed("airplane_3ver2_13")
         let playerPlane = PlayerPlane(texture: playerPlaneTexture)
         playerPlane.setScale(0.5)
         playerPlane.position = point
